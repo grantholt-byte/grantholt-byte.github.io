@@ -1,0 +1,158 @@
+{
+  "destination_surf_posters": [
+    {
+      "subject": "Pipeline Hawaii Surf",
+      "pkg": "surf_poster_pipeline"
+    },
+    {
+      "subject": "Mavericks California Surf",
+      "pkg": "surf_poster_mavericks"
+    },
+    {
+      "subject": "Uluwatu Bali Surf",
+      "pkg": "surf_poster_uluwatu"
+    },
+    {
+      "subject": "Teahupo&#39;o Tahiti Surf",
+      "pkg": "surf_poster_teahupo_o"
+    },
+    {
+      "subject": "Trestles California Surf",
+      "pkg": "surf_poster_trestles"
+    },
+    {
+      "subject": "Jeffreys Bay South Africa Surf",
+      "pkg": "surf_poster_jeffreys_bay"
+    }
+  ],
+  "asian_brush": [
+    {
+      "subject": "Sumi-e Lone Surfer",
+      "pkg": "sumi_e_lone_surfer_print_japanese_ink_pa"
+    },
+    {
+      "subject": "Sumi-e Pelican",
+      "pkg": "sumi_e_pelican_print_japanese_ink_coasta"
+    },
+    {
+      "subject": "Sumi-e Dawn Patrol Surfer",
+      "pkg": "sumi_e_dawn_patrol_surfer_print_japanese"
+    },
+    {
+      "subject": "Sumi-e Surfer Cutback",
+      "pkg": "sumi_e_surfer_cutback_print_japanese_ink"
+    },
+    {
+      "subject": "Sumi-e Lone Palm",
+      "pkg": "sumi_e_lone_palm_print_japanese_ink_trop"
+    },
+    {
+      "subject": "Sumi-e Breaking Wave",
+      "pkg": "sumi_e_breaking_wave_print_japanese_ink_"
+    }
+  ],
+  "patch_art": [
+    {
+      "subject": "Sun Salt Sea Embroidered Patch",
+      "pkg": "sun_salt_sea_embroidered_patch_print_vin"
+    },
+    {
+      "subject": "Tide Chaser Embroidered Patch",
+      "pkg": "tide_chaser_embroidered_patch_print_burg"
+    },
+    {
+      "subject": "Beach Days Embroidered Patch",
+      "pkg": "sun_embroidered_patch_print_black_canvas"
+    },
+    {
+      "subject": "Swell Seeker Embroidered Patch",
+      "pkg": "swell_seeker_embroidered_patch_print_nav"
+    },
+    {
+      "subject": "Sea Legs Embroidered Patch",
+      "pkg": "sea_legs_embroidered_patch_print_navy_ca"
+    },
+    {
+      "subject": "Wave Embroidered Patch",
+      "pkg": "wave_embroidered_patch_print_black_canva"
+    }
+  ],
+  "dog_surf": [
+    {
+      "subject": "Corgi Surfing",
+      "pkg": "corgi_surfing_print_editorial_coastal_pe"
+    },
+    {
+      "subject": "Dachshund Surfing",
+      "pkg": "dachshund_surfing_print_editorial_coasta"
+    },
+    {
+      "subject": "Poodle Surfing",
+      "pkg": "poodle_surfing_print_editorial_coastal_p"
+    },
+    {
+      "subject": "Labrador Surfing",
+      "pkg": "labrador_surfing_print_editorial_coastal"
+    },
+    {
+      "subject": "Rottweiler Surfing",
+      "pkg": "rottweiler_surfing_print_editorial_coast"
+    },
+    {
+      "subject": "German Shepherd Surfing",
+      "pkg": "german_shepherd_surfing_print_editorial_"
+    }
+  ],
+  "boho_surf": [
+    {
+      "subject": "Boho Palm Tree Line",
+      "pkg": "boho_palm_tree_line_art_single_line_draw"
+    },
+    {
+      "subject": "Boho Pineapple Line",
+      "pkg": "boho_pineapple_line_art_minimalist_tropi"
+    },
+    {
+      "subject": "Boho Beach Chair and Umbrella Line",
+      "pkg": "boho_beach_chair_and_umbrella_line_art_m"
+    },
+    {
+      "subject": "Boho Woody Surf Wagon Line",
+      "pkg": "boho_woody_surf_wagon_line_art_minimalis"
+    },
+    {
+      "subject": "Boho Surf Van Line",
+      "pkg": "boho_surf_van_line_art_minimalist_retro_"
+    },
+    {
+      "subject": "Boho Crossed Surfboards Line",
+      "pkg": "boho_crossed_surfboards_line_art_minimal"
+    }
+  ],
+  "ocean_nursery": [
+    {
+      "subject": "Octopus Surfing",
+      "pkg": "nursery_octopus_surfing"
+    },
+    {
+      "subject": "Seahorse Surfing",
+      "pkg": "nursery_seahorse_surfing"
+    },
+    {
+      "subject": "Surfing Shark",
+      "pkg": "nursery_shark_surfing"
+    },
+    {
+      "subject": "Starfish Surfing",
+      "pkg": "nursery_starfish_surfing"
+    },
+    {
+      "subject": "Sea Turtle Surfing",
+      "pkg": "nursery_turtle_surfing"
+    },
+    {
+      "subject": "Dolphin Surfing",
+      "pkg": "nursery_dolphin_surfing"
+    }
+  ]
+}
