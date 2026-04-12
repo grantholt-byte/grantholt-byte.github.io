@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroSwell — Pinterest Board Descriptions</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; padding: 24px; }
+        h1 { text-align: center; margin-bottom: 8px; font-size: 1.6rem; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 32px; font-size: 0.95rem; }
+        .board { background: white; border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        .board-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .board-name { font-size: 1.15rem; font-weight: 700; color: #1a3a4a; }
+        .copy-btn {
+            background: #e60023; color: white; border: none; padding: 8px 18px;
+            border-radius: 20px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+            transition: all 0.2s;
+        }
+        .copy-btn:hover { background: #ad081b; }
+        .copy-btn.copied { background: #2e7d32; }
+        .desc-text {
+            font-size: 0.92rem; line-height: 1.6; color: #444;
+            background: #fafafa; border: 1px solid #e8e8e8; border-radius: 8px;
+            padding: 14px; cursor: pointer; user-select: all;
+        }
+        .desc-text:hover { border-color: #e60023; background: #fff8f8; }
+        .done-counter { text-align: center; margin-top: 24px; font-size: 1rem; color: #666; }
+        .done-counter span { font-weight: 700; color: #2e7d32; }
+    </style>
+</head>
+<body>
+    <h1>Pinterest Board Descriptions</h1>
+    <p class="subtitle">Click "Copy" next to each board, then paste into Pinterest (Board > Edit > Description)</p>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Vintage Surf Posters</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Vintage surf travel posters and retro beach art — printable wall art for beach houses, coastal living rooms, and surf-inspired interiors. Featuring iconic surf spots from Pipeline and Teahupo'o to Bells Beach and Malibu. Instant digital downloads in multiple sizes (5x7 to 24x36). Print at home, frame, and hang today. Perfect for vacation rentals, gallery walls, and gifts for surf lovers.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Asian Brush Wave Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Japanese ink wash and Chinese brush painting ocean art — minimalist zen wall art inspired by traditional sumi-e techniques. Crashing waves, serene coastal scenes, and meditative surf art in black ink with subtle color accents. Printable wall art for modern minimalist homes, yoga studios, and calm spaces. Instant digital download, multiple print sizes included.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Embroidered Patch Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Vintage embroidered patch prints on canvas — retro surf badges, scout-style patches, and Americana-inspired wall art. Each design captures the handmade feel of real embroidered patches on textured canvas backgrounds. Perfect for surf shops, beach houses, dorm rooms, and gallery walls. Printable wall art, instant digital download in multiple sizes.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Ocean Nursery Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Gentle ocean and coastal nursery wall art — soft watercolor sea creatures, calming beach scenes, and playful surf animals for baby rooms and kids' spaces. Soft color palettes designed for nurseries. Sea turtles, whales, dolphins, and friendly ocean creatures. Printable nursery decor, instant digital download, multiple sizes included for easy framing.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Surf Dog Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Dogs surfing — editorial watercolor illustrations of your favorite breeds catching waves. Corgis, dachshunds, golden retrievers, beagles, and more riding surfboards in playful coastal style. Funny pet lover wall art that makes the perfect gift. Printable wall art for dog lovers, beach houses, and pet-friendly spaces. Instant digital download.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Boho Coastal Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Bohemian beach art and minimalist coastal line drawings — single-line ocean waves, boho palm trees, pineapples, and earth-tone surf prints. Clean, simple, and modern wall art that pairs with rattan, macrame, and natural textures. Perfect for boho nurseries, beach cottages, and modern coastal interiors. Printable wall art, instant digital download.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Printable Wall Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Unique printable wall art from RetroSwell — instant digital downloads you can print at home. Vintage-inspired coastal art, surf culture prints, and one-of-a-kind designs for every room. Multiple sizes included with every purchase (5x7 to 24x36). Frame-ready files in high-resolution 300 DPI. Gallery wall art made easy.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Vintage Pennant Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Retro surf pennant prints inspired by 1960s felt pennants and vintage camp banners. Classic Americana wall art featuring iconic surf spots — Malibu, Pipeline, Huntington Beach, and Rincon. Bold colors, vintage typography, and nostalgic surf culture vibes. Printable wall art for beach houses, dorm rooms, and surf-inspired spaces. Instant digital download.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Surfer Presidents</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">US Presidents reimagined as surfers — bold, funny, and totally unique portrait art. Founding fathers in sunglasses and surf gear, painted in vintage gallery portrait style. Conversation-starting wall art for home offices, man caves, and anyone who loves history with a sense of humor. Printable wall art, instant digital download.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Fine Art Waves</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Museum-quality ocean art — vintage etching style wave prints inspired by classical engravings and fine art techniques. Detailed linework capturing the power and beauty of ocean waves. Gallery-worthy coastal wall art for refined interiors. Printable fine art, instant digital download in multiple sizes up to 24x36.</div>
+    </div>
+
+    <div class="board">
+        <div class="board-header">
+            <span class="board-name">Earth Day Ocean Art</span>
+            <button class="copy-btn" onclick="copyDesc(this)">Copy</button>
+        </div>
+        <div class="desc-text">Celebrate the ocean with stunning coastal wall art. Printable, sustainable, zero waste. Vintage surf posters, coastal art, and unique printable wall art from RetroSwell. Instant digital downloads — print at home in any size. Perfect for Earth Day, ocean lovers, and eco-conscious decorators. $4.99 each.</div>
+    </div>
+
+    <div class="done-counter">
+        <span id="counter">0</span> / 11 copied
+    </div>
+
+    <script>
+        let copied = 0;
+        function copyDesc(btn) {
+            const text = btn.parentElement.nextElementSibling.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                copied++;
+                document.getElementById('counter').textContent = copied;
+            });
+        }
+    </script>
+</body>
+</html>
