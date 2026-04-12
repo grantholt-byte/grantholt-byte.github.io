@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://retroswell.github.io/sitemap.xml
