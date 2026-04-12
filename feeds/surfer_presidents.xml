@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RetroSwell — Surfer Presidents</title>
+    <link>https://grantholt-byte.github.io</link>
+    <description>Vintage surf posters, coastal art, and unique printable wall art. Instant digital downloads from RetroSwell.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2026 15:11:54 +0000</lastBuildDate>
+    <atom:link href="https://grantholt-byte.github.io/feeds/surfer_presidents.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://grantholt-byte.github.io/images/logo.png</url>
+      <title>RetroSwell</title>
+      <link>https://grantholt-byte.github.io</link>
+    </image>
+    <item>
+      <title>Founding Father Surfer George Washington Print</title>
+      <link>https://grantholt-byte.github.io/products/founding-father-surfer-george-washington-print-presidential-beach-art-funny-surf.html</link>
+      <description>Founding Father Surfer George Washington Print Vacation rental decor that guests actually compliment. Print as many copies as you need — perfect for gallery walls. $4.99 — Shop RetroSwell on Etsy. humorous office art | surfer portrait | patriotic fun art | pop culture wall art | unique conversation piece</description>
+      <guid isPermaLink="true">https://grantholt-byte.github.io/products/founding-father-surfer-george-washington-print-presidential-beach-art-funny-surf.html</guid>
+      <pubDate>Sun, 12 Apr 2026 15:11:54 +0000</pubDate>
+      <enclosure url="https://grantholt-byte.github.io/images/founding-father-surfer-george-washington-print-presidential-beach-art-funny-surf.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://grantholt-byte.github.io/images/founding-father-surfer-george-washington-print-presidential-beach-art-funny-surf.jpg" medium="image"/>
+      <media:thumbnail url="https://grantholt-byte.github.io/images/founding-father-surfer-george-washington-print-presidential-beach-art-funny-surf.jpg"/>
+      <category>digital download</category>
+      <category>printable wall art</category>
+      <category>instant download</category>
+      <category>funny portrait print</category>
+      <category>humorous art print</category>
+    </item>
+  </channel>
+</rss>
