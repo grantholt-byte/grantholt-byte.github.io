@@ -1,0 +1,86 @@
+[
+  {
+    "filename": "gallery_vintage_surf_1.jpg",
+    "category": "destination_surf_posters",
+    "category_name": "Vintage Surf Posters",
+    "layout": "salon",
+    "exists": true
+  },
+  {
+    "filename": "gallery_vintage_surf_2.jpg",
+    "category": "destination_surf_posters",
+    "category_name": "Vintage Surf Posters",
+    "layout": "row",
+    "exists": true
+  },
+  {
+    "filename": "gallery_asian_brush_1.jpg",
+    "category": "asian_brush",
+    "category_name": "Asian Brush Wave Art",
+    "layout": "salon",
+    "exists": true
+  },
+  {
+    "filename": "gallery_asian_brush_2.jpg",
+    "category": "asian_brush",
+    "category_name": "Asian Brush Wave Art",
+    "layout": "grid",
+    "exists": true
+  },
+  {
+    "filename": "gallery_patch_1.jpg",
+    "category": "patch_art",
+    "category_name": "Embroidered Patch Art",
+    "layout": "grid",
+    "exists": true
+  },
+  {
+    "filename": "gallery_patch_2.jpg",
+    "category": "patch_art",
+    "category_name": "Embroidered Patch Art",
+    "layout": "row",
+    "exists": true
+  },
+  {
+    "filename": "gallery_surf_dogs_1.jpg",
+    "category": "dog_surf",
+    "category_name": "Surf Dog Art",
+    "layout": "salon",
+    "exists": true
+  },
+  {
+    "filename": "gallery_surf_dogs_2.jpg",
+    "category": "dog_surf",
+    "category_name": "Surf Dog Art",
+    "layout": "grid",
+    "exists": true
+  },
+  {
+    "filename": "gallery_boho_1.jpg",
+    "category": "boho_surf",
+    "category_name": "Boho Coastal Art",
+    "layout": "salon",
+    "exists": true
+  },
+  {
+    "filename": "gallery_boho_2.jpg",
+    "category": "boho_surf",
+    "category_name": "Boho Coastal Art",
+    "layout": "row",
+    "exists": true
+  },
+  {
+    "filename": "gallery_nursery_1.jpg",
+    "category": "ocean_nursery",
+    "category_name": "Ocean Nursery Art",
+    "layout": "salon",
+    "exists": true
+  },
+  {
+    "filename": "gallery_nursery_2.jpg",
+    "category": "ocean_nursery",
+    "category_name": "Ocean Nursery Art",
+    "layout": "row",
+    "exists": true
+  }
+]
