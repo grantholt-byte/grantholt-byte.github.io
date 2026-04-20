@@ -3,6 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Pinterest pass-through: pins arrive with ?utm_source=pinterest and bounce instantly to Etsy.
+         Direct/Google visitors see the full page. Pinterest's crawler (no JS) still reads OG+schema. -->
+    <script>
+      (function(){try{if(location.search.indexOf("utm_source=pinterest")>-1){
+        location.replace("https://www.etsy.com/listing/4484984269"+location.search);
+      }}catch(e){}})();
+    </script>
     <title>Skeleton Bay Namibia Surf Poster | RetroSwell Printable Wall Art</title>
     <meta name="description" content="Bring the raw, otherworldly power of Skeleton Bay into your home with this vintage-style surf travel poster — a striking conversation piece for any room th…">
 

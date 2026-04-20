@@ -3,6 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Pinterest pass-through: pins arrive with ?utm_source=pinterest and bounce instantly to Etsy.
+         Direct/Google visitors see the full page. Pinterest's crawler (no JS) still reads OG+schema. -->
+    <script>
+      (function(){try{if(location.search.indexOf("utm_source=pinterest")>-1){
+        location.replace("https://www.etsy.com/listing/4487234141"+location.search);
+      }}catch(e){}})();
+    </script>
     <title>Wave Chaser Patch Print | RetroSwell Printable Wall Art</title>
     <meta name="description" content="Bring the spirit of the open ocean into your space with this Wave Chaser embroidered patch art print — a bold, vintage-inspired design set against a rich b…">
 
