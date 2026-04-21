@@ -4,25 +4,70 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RetroSwell — Vintage Pennant Art</title>
-    <link>https://retro-swell.com</link>
+    <link>https://grantholt-byte.github.io</link>
     <description>Vintage surf posters, coastal art, and unique printable wall art. Instant digital downloads from RetroSwell.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 02:47:48 +0000</lastBuildDate>
-    <atom:link href="https://retro-swell.com/feeds/pennant_art.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 21 Apr 2026 07:01:21 +0000</lastBuildDate>
+    <atom:link href="https://grantholt-byte.github.io/feeds/pennant_art.xml" rel="self" type="application/rss+xml"/>
     <image>
-      <url>https://retro-swell.com/images/logo.png</url>
+      <url>https://grantholt-byte.github.io/images/logo.png</url>
       <title>RetroSwell</title>
-      <link>https://retro-swell.com</link>
+      <link>https://grantholt-byte.github.io</link>
     </image>
     <item>
+      <title>Malibu Surf Pennant Print</title>
+      <link>https://www.etsy.com/listing/4487238904</link>
+      <description>Malibu Surf Pennant Print Statement piece for coastal-inspired interiors. Instant digital download — print at home today, no shipping wait. $4.99 — Shop RetroSwell on Etsy. retro wall banner | vintage pennant art | camp pennant decor | americana pennant | vintage flag art</description>
+      <guid isPermaLink="true">https://grantholt-byte.github.io/products/malibu-surf-pennant-print-vintage-california-wall-art-1960s-felt-pennant-decor-p.html</guid>
+      <pubDate>Tue, 21 Apr 2026 07:01:21 +0000</pubDate>
+      <enclosure url="https://grantholt-byte.github.io/images/malibu-surf-pennant-print-vintage-california-wall-art-1960s-felt-pennant-decor-p.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://grantholt-byte.github.io/images/malibu-surf-pennant-print-vintage-california-wall-art-1960s-felt-pennant-decor-p.jpg" medium="image"/>
+      <media:thumbnail url="https://grantholt-byte.github.io/images/malibu-surf-pennant-print-vintage-california-wall-art-1960s-felt-pennant-decor-p.jpg"/>
+      <category>printable wall art</category>
+      <category>instant download</category>
+      <category>digital download</category>
+      <category>malibu surf print</category>
+      <category>vintage pennant art</category>
+    </item>
+    <item>
+      <title>Huntington Beach Surf Pennant Print</title>
+      <link>https://www.etsy.com/listing/4487236970</link>
+      <description>Huntington Beach Surf Pennant Print Perfect for living rooms, bedrooms, home offices, and beach houses. Instant digital download — print at home today, no shipping wait. $4.99 — Shop RetroSwell on Etsy. camp pennant decor | college pennant print | surf pennant poster | retro banner art | americana pennant</description>
+      <guid isPermaLink="true">https://grantholt-byte.github.io/products/huntington-beach-surf-pennant-print-vintage-felt-pennant-art-surf-city-usa-wall-.html</guid>
+      <pubDate>Tue, 21 Apr 2026 07:01:21 +0000</pubDate>
+      <enclosure url="https://grantholt-byte.github.io/images/huntington-beach-surf-pennant-print-vintage-felt-pennant-art-surf-city-usa-wall-.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://grantholt-byte.github.io/images/huntington-beach-surf-pennant-print-vintage-felt-pennant-art-surf-city-usa-wall-.jpg" medium="image"/>
+      <media:thumbnail url="https://grantholt-byte.github.io/images/huntington-beach-surf-pennant-print-vintage-felt-pennant-art-surf-city-usa-wall-.jpg"/>
+      <category>printable wall art</category>
+      <category>instant download</category>
+      <category>digital download</category>
+      <category>huntington beach</category>
+      <category>surf pennant print</category>
+    </item>
+    <item>
+      <title>Pipeline Surf Pennant Print</title>
+      <link>https://www.etsy.com/listing/4487230325</link>
+      <description>Pipeline Surf Pennant Print Vacation rental decor that guests actually compliment. Print as many copies as you need — perfect for gallery walls. $4.99 — Shop RetroSwell on Etsy. americana pennant | retro banner art | camp pennant decor | college pennant print | vintage flag art</description>
+      <guid isPermaLink="true">https://grantholt-byte.github.io/products/pipeline-surf-pennant-print-vintage-hawaii-wall-art-retro-beach-decor-printable-.html</guid>
+      <pubDate>Tue, 21 Apr 2026 07:01:21 +0000</pubDate>
+      <enclosure url="https://grantholt-byte.github.io/images/pipeline-surf-pennant-print-vintage-hawaii-wall-art-retro-beach-decor-printable-.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://grantholt-byte.github.io/images/pipeline-surf-pennant-print-vintage-hawaii-wall-art-retro-beach-decor-printable-.jpg" medium="image"/>
+      <media:thumbnail url="https://grantholt-byte.github.io/images/pipeline-surf-pennant-print-vintage-hawaii-wall-art-retro-beach-decor-printable-.jpg"/>
+      <category>printable wall art</category>
+      <category>instant download</category>
+      <category>digital download</category>
+      <category>pipeline surf art</category>
+      <category>vintage pennant</category>
+    </item>
+    <item>
       <title>Rincon Surf Pennant Print</title>
-      <link>https://retro-swell.com/products/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.html?utm_source=pinterest</link>
-      <description>Rincon Surf Pennant Print Vacation rental decor that guests actually compliment. Print as many copies as you need — perfect for gallery walls. $4.99 — Shop RetroSwell on Etsy. vintage flag art | americana pennant | college pennant print | retro wall banner | surf pennant poster</description>
-      <guid isPermaLink="true">https://retro-swell.com/products/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.html</guid>
-      <pubDate>Tue, 21 Apr 2026 02:47:48 +0000</pubDate>
-      <enclosure url="https://retro-swell.com/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://retro-swell.com/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg" medium="image"/>
-      <media:thumbnail url="https://retro-swell.com/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg"/>
+      <link>https://www.etsy.com/listing/4487229631</link>
+      <description>Rincon Surf Pennant Print Gallery wall essential — pairs beautifully with natural wood and rattan frames. Instant digital download — print at home today, no shipping wait. $4.99 — Shop RetroSwell on Etsy. vintage flag art | college pennant print | americana pennant | camp pennant decor | surf pennant poster</description>
+      <guid isPermaLink="true">https://grantholt-byte.github.io/products/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.html</guid>
+      <pubDate>Tue, 21 Apr 2026 07:01:21 +0000</pubDate>
+      <enclosure url="https://grantholt-byte.github.io/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://grantholt-byte.github.io/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg" medium="image"/>
+      <media:thumbnail url="https://grantholt-byte.github.io/images/rincon-surf-pennant-print-vintage-california-surf-art-1960s-felt-pennant-wall-de.jpg"/>
       <category>printable wall art</category>
       <category>instant download</category>
       <category>digital download</category>
