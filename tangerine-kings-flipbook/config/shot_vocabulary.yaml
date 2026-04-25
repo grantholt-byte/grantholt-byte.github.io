@@ -1,0 +1,76 @@
+# Shot vocabulary for the Tangerine Kings flipbook.
+# 11 shots × 3 intensity variants (calm, medium, heavy) = 33 prompt templates.
+# style_anchor + shot.base + shot.<intensity> are concatenated to form the final prompt.
+
+style_anchor: "TANGSTICK style hand-drawn stick figure on cream paper, ballpoint pen line work, orange marker fill on character, slight paper texture and yellowing, 1996 emo zine aesthetic, vertical 9:16 composition,"
+
+lora_strength: 0.85
+
+negative: "blurry, photograph, photorealistic, 3d render, smooth shading, glossy, anime, cartoon, watercolor, color photograph"
+
+shots:
+  singer_front:
+    base: "front-on view of stick figure singer at microphone stand center frame, crowd silhouette heads at bottom edge, basement venue with single overhead bulb, rough hatched shadows on walls,"
+    calm: "mouth closed, hands at sides, eyes slightly downcast, calm posture, gentle line weight"
+    medium: "mouth open singing, one hand resting on the mic stand, body slightly forward toward the mic, energetic line weight"
+    heavy: "mouth wide open screaming, both hands gripping the mic, head tilted up, neck veins implied with fast hatching, sweat marks bleeding into the paper, pressure-heavy line weight"
+
+  singer_3q:
+    base: "three-quarter angle view of stick figure singer mid-frame, microphone in foreground, stage edge visible, crowd silhouettes lower-third, basement bulb backlight,"
+    calm: "shoulders down, mouth slightly open, free hand at side, contemplative posture"
+    medium: "shoulder forward, free hand gesturing emphatically, mouth singing, body angled into the mic"
+    heavy: "shoulder hunched, free hand clenched, mouth wide screaming, full body lean into the mic stand"
+
+  singer_close:
+    base: "extreme close-up tight on stick figure singer's face and the microphone, mic mesh in foreground, blurred bulb halo behind, paper grain visible,"
+    calm: "eyes closed, mouth slightly parted, brow soft"
+    medium: "eyes half-closed, mouth open singing, brow furrowed slightly"
+    heavy: "eyes squeezed shut, mouth wide open screaming into the mic mesh, brow hard-furrowed, vein lines on forehead"
+
+  singer_kneeling:
+    base: "wide-ish shot of stick figure singer dropped to one knee on a basement stage, mic gripped low and pulled toward face, cable curling, crowd silhouettes around the edges,"
+    calm: "head bowed, mic at chest, calm pose"
+    medium: "head lifted, singing into the lowered mic, free arm extended"
+    heavy: "head tilted back, screaming into the lowered mic, free arm stretched outward, full collapse-of-the-frame energy"
+
+  singer_back:
+    base: "over-the-shoulder view from behind the stick figure singer, looking past his head toward a packed audience of silhouette heads and raised arms, basement venue, single overhead bulb visible,"
+    calm: "shoulders relaxed, head slightly down, audience reading as a still wave"
+    medium: "shoulders back, head up, audience implied to be moving, motion lines"
+    heavy: "shoulders hunched forward, head tilted up screaming, audience implied to be roaring, bold motion lines and crowd-arm chaos"
+
+  singer_lean_to_mic:
+    base: "medium close-up of stick figure singer leaning into the mic stand, hand wrapped around the mic, intimate framing, basement venue blurred behind,"
+    calm: "lean is gentle, eyes downcast, soft expression"
+    medium: "lean is committed, eyes closed, mouth singing, hand tightening on the mic"
+    heavy: "full lean with body weight, eyes squeezed shut, mouth wide open screaming, white-knuckle grip on the mic"
+
+  drummer:
+    base: "back-of-stage angle, stick figure drummer behind a sketched drum kit, kick drum and crash cymbal visible, single overhead bulb backlight, kit reading as rough silhouette quality,"
+    calm: "sticks resting on the snare, head bowed, no motion"
+    medium: "one stick mid-air over the cymbal, motion line on the cymbal, head up"
+    heavy: "both sticks raised mid-strike, motion lines everywhere, hi-hat blur, mouth open shouting along, kick drum implied to be pounding"
+
+  guitarist:
+    base: "side-stage angle on stick figure guitarist with a sketched electric guitar, guitar neck up at an angle, head down toward the strings, basement venue depth behind,"
+    calm: "guitar held still, head down, no motion"
+    medium: "head up, mouth open singing backups, fretting hand mid-chord"
+    heavy: "head thrown back, jumping mid-air, neck angled up at full extension, motion lines off the guitar body"
+
+  wide_stage:
+    base: "wide pulled-back shot of the entire basement stage with all band members visible — stick figure singer center-front at mic, drummer back-stage behind kit, guitarist side-stage with guitar — packed audience silhouettes filling the lower third, single bulb illuminating from above,"
+    calm: "static composition, all members in calm poses, audience as still silhouette"
+    medium: "members in mid-motion, audience implied to be swaying, motion lines on the bulb"
+    heavy: "all members in extreme poses (singer kneeling, drummer mid-strike, guitarist mid-jump), audience erupting with raised arms and chaos lines, single-bulb illumination reading as flashbulb-hot"
+
+  crowd_pov:
+    base: "low-angle shot from inside the audience looking up at the basement stage, raised arms and silhouette heads in the foreground, the band reading as small distant figures on the stage above, single overhead bulb visible,"
+    calm: "arms lowered, audience still, stage reading as quiet"
+    medium: "arms half-raised, audience reading as engaged, stage figures mid-motion"
+    heavy: "arms fully raised, audience reading as packed and moshing, stage figures in extreme poses, motion lines and chaos hatching everywhere"
+
+  crowd_close:
+    base: "tight composition on packed silhouette bodies and raised arms, no stage visible, basement venue darkness behind, single bulb glow from upper edge, paper grain heavy,"
+    calm: "shoulders pressed but bodies still, arms lowered"
+    medium: "bodies starting to surge, arms half-raised, motion lines"
+    heavy: "full mosh chaos, arms fully raised, bodies overlapping in a frenzy, motion lines and impact hatching, sweat dots on the paper"

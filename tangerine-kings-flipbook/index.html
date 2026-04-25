@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tangerine Kings — flipbook render setup</title>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  body {
+    background: #f4ecd8;
+    color: #2a2418;
+    font-family: 'Special Elite', monospace;
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 28px;
+    line-height: 1.65;
+  }
+  h1, h2, h3 { font-family: 'Permanent Marker', cursive; color: #d2691e; font-weight: normal; }
+  h1 { font-size: 2.6em; margin-bottom: 0; line-height: 1; }
+  h2 { font-size: 1.5em; border-bottom: 2px solid #d2691e; padding-bottom: 4px; margin-top: 44px; }
+  h3 { font-size: 1.15em; margin-top: 28px; color: #8a4918; }
+  pre {
+    background: #2a2418;
+    color: #f4ecd8;
+    padding: 14px 16px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: 'Special Elite', monospace;
+    font-size: 0.92em;
+    line-height: 1.45;
+  }
+  code { background: #ebe0c4; padding: 1px 6px; border-radius: 2px; }
+  .cost { color: #c0392b; font-family: 'Permanent Marker'; font-size: 2.6em; text-align: center; margin: 36px 0; line-height: 1; }
+  .step-num { color: #d2691e; font-family: 'Permanent Marker'; font-size: 1.4em; }
+  ol > li { margin-bottom: 14px; }
+  .lede { font-style: italic; opacity: 0.85; }
+  .ascii {
+    font-size: 0.75em;
+    line-height: 1.2;
+    background: transparent;
+    color: #8a4918;
+    padding: 8px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Tangerine Kings flipbook</h1>
+<p class="lede">Render the music video for "The Failing" on your GPU rig. Free.</p>
+
+<h2>What this is</h2>
+<p>You're rendering an animated music video for my fake 90s emo band, Tangerine Kings. Hand-drawn stick figures on cream paper. ~3:18 long. Output: an MP4 you send back to me.</p>
+
+<h2>What you'll need</h2>
+<ul>
+  <li>Linux or WSL with at least one NVIDIA GPU (12 GB+ VRAM minimum, 24 GB+ recommended)</li>
+  <li>~80 GB free disk</li>
+  <li>Hugging Face account (for Flux.1 [dev] license — free, one-time)</li>
+  <li>Python 3.11+, git, ffmpeg</li>
+</ul>
+
+<h2>One block. Paste. Walk away.</h2>
+<pre>git clone https://github.com/grantholt-byte/grantholt-byte.github.io.git
+cd grantholt-byte.github.io/tangerine-kings-flipbook
+export HF_TOKEN=hf_...
+bash run.sh</pre>
+
+<p>Get an <code>HF_TOKEN</code>: visit <a href="https://huggingface.co/black-forest-labs/FLUX.1-dev">FLUX.1-dev on Hugging Face</a>, accept the license, then create a token at <a href="https://huggingface.co/settings/tokens">settings/tokens</a>.</p>
+
+<p>If anything crashes mid-run, just re-run <code>bash run.sh</code>. It resumes from where it left off — completed stages are skipped.</p>
+
+<h2>What it'll do</h2>
+<pre class="ascii">
+[setup]      install ComfyUI + Flux + LoRA + RIFE      ~10–30 min one-time
+[detect]     auto-tune for your specific GPU(s)        ~5 sec
+[analyze]    librosa + WhisperX on the song            ~30 sec (first run + 3 GB download)
+[schedule]   build per-keyframe shot schedule          ~2 sec
+[render]     Flux+LoRA keyframes (multi-GPU)           ~25–60 min
+[interpolate] RIFE 3× (8 fps → 24 fps)                  ~10 min
+[assemble]   ffmpeg + paper post-processing            ~2 min
+</pre>
+
+<h2>If something breaks</h2>
+<ul>
+  <li><strong><code>HF_TOKEN</code> not set</strong> — see paragraph above the big block.</li>
+  <li><strong>OOM on a card</strong> — set <code>CUDA_VISIBLE_DEVICES=0</code> (or whichever cards have headroom) and re-run.</li>
+  <li><strong>ComfyUI port collision</strong> (8188 in use) — kill the existing instance, then re-run.</li>
+  <li><strong>Render output looks weird</strong> — open <code>output/timing_map.json</code>, fix section boundaries by hand, then <code>rm output/.stage_done/render output/.stage_done/schedule</code> and re-run. Only changed frames re-render.</li>
+  <li><strong>Anything else</strong> — text me the last 30 lines of the terminal output.</li>
+</ul>
+
+<h2>Or run stages manually</h2>
+<p>Same things <code>run.sh</code> does, just one at a time:</p>
+<pre>bash setup.sh                                        # one-time
+python scripts/0_detect.py                           # preflight + tune
+python scripts/1_analyze_audio.py audio/TheFailing.mp3
+python scripts/2_build_schedule.py
+python scripts/3_render_keyframes.py
+python scripts/4_interpolate_rife.py
+python scripts/5_assemble_video.py</pre>
+
+<h2>Output</h2>
+<p>Final file lands at <code>output/the_failing_flipbook.mp4</code>. Send it however you want — Dropbox, Telegram, AirDrop, USB stick, attached to a postcard.</p>
+
+<h2>Cost</h2>
+<div class="cost">$0</div>
+
+</body>
+</html>
