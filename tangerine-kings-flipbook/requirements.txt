@@ -1,0 +1,19 @@
+torch>=2.1.0
+torchvision
+torchaudio
+librosa==0.10.1
+whisperx==3.1.1
+opencv-python==4.9.0.80
+pyyaml==6.0.1
+ffmpeg-python==0.2.0
+requests==2.31.0
+rich==13.7.0
+numpy<2.0
+soundfile==0.12.1
+huggingface_hub
+httpx==0.26.0
+
+# Dev
+pytest==8.0.0
+respx==0.20.2
+pytest-mock==3.12.0
