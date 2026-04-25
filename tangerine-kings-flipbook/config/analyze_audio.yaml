@@ -1,0 +1,12 @@
+fps_keyframes: 8
+intensity_bins:
+  calm:   [0.0, 0.30]
+  medium: [0.30, 0.65]
+  heavy:  [0.65, 1.0]
+hysteresis_sec: 0.5
+scream_detection:
+  rms_min: 0.7
+  flatness_min: 0.3
+  min_duration_sec: 0.4
+section_segmentation:
+  expected_sections: 8
