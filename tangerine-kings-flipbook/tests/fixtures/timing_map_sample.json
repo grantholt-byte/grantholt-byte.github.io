@@ -1,0 +1,14 @@
+{
+  "song": "fixture",
+  "duration_sec": 16.0,
+  "fps_keyframes": 8,
+  "intensity": [],
+  "sections": [
+    {"start": 0.0, "end": 4.0, "label": "intro"},
+    {"start": 4.0, "end": 8.0, "label": "verse_1"},
+    {"start": 8.0, "end": 12.0, "label": "chorus_1"},
+    {"start": 12.0, "end": 16.0, "label": "outro"}
+  ],
+  "words": [],
+  "screams": []
+}

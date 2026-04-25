@@ -1,0 +1,17 @@
+hold_sec: 2.0
+jitter: 0.5
+hysteresis_rms: 0.05
+ramp_keyframes: 3
+seed: 19960701
+scream_fallbacks: [singer_close, singer_kneeling, crowd_close]
+section_rotations:
+  intro:      [singer_back, crowd_pov]
+  verse:      [singer_front, singer_3q, singer_lean_to_mic]
+  verse_1:    [singer_front, singer_3q, singer_lean_to_mic]
+  verse_2:    [singer_3q, singer_front, drummer]
+  chorus:     [wide_stage, singer_front, singer_close]
+  chorus_1:   [wide_stage, singer_front, singer_close]
+  chorus_2:   [wide_stage, singer_close, crowd_close]
+  bridge:     [singer_back, guitarist, singer_lean_to_mic]
+  breakdown:  [drummer, crowd_close, singer_kneeling]
+  outro:      [singer_close, crowd_close, wide_stage]
